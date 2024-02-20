@@ -819,6 +819,13 @@
             "icon": "sicon-clothes-hanger",
             "path": "home.Marwa",
             "fields": []
+        },
+        {
+            "key": "7945c232-69fa-4bae-ae43-5a911197bb51",
+            "title": "kak",
+            "icon": "sicon-bank-building",
+            "path": "home.kak",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
