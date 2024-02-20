@@ -812,6 +812,13 @@
             "icon": "sicon-store",
             "path": "home.test",
             "fields": []
+        },
+        {
+            "key": "a3ab2e28-bcae-4280-b157-400cfefaee58",
+            "title": "Marwa",
+            "icon": "sicon-clothes-hanger",
+            "path": "home.Marwa",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
