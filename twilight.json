@@ -818,7 +818,22 @@
             "title": "Marwa",
             "icon": "sicon-clothes-hanger",
             "path": "home.Marwa",
-            "fields": []
+            "fields": [
+                {
+                    "id": "my-marwa",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         },
         {
             "key": "7945c232-69fa-4bae-ae43-5a911197bb51",
