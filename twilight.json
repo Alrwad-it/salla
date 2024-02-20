@@ -812,6 +812,13 @@
             "icon": "sicon-store",
             "path": "home.test",
             "fields": []
+        },
+        {
+            "key": "6a987b00-3823-4c98-9682-5de6732c2bd1",
+            "title": "slider",
+            "icon": "sicon-store",
+            "path": "home.slider",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
