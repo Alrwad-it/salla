@@ -857,6 +857,13 @@
                     "maxLength": 30
                 }
             ]
+        },
+        {
+            "key": "068d6c67-5ab5-43a8-b690-d7d2f0e11a17",
+            "title": "fatma",
+            "icon": "sicon-store",
+            "path": "home.fatma",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
