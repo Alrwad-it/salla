@@ -879,6 +879,13 @@
                     "maxLength": 5
                 }
             ]
+        },
+        {
+            "key": "13a244ee-6e06-4abb-aec8-a901decaa498",
+            "title": "test-compo",
+            "icon": "sicon-store",
+            "path": "home.test-compo",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
