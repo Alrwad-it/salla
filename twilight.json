@@ -893,6 +893,13 @@
             "icon": "sicon-store",
             "path": "home.test3",
             "fields": []
+        },
+        {
+            "key": "3136f882-d06f-43ff-95f3-fa8277c4d82a",
+            "title": "marwa-test",
+            "icon": "sicon-store",
+            "path": "home.marwa-test",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
