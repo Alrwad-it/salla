@@ -920,7 +920,50 @@
             "title": "ShopByCategory",
             "icon": "sicon-store",
             "path": "home.ShopByCategory",
-            "fields": []
+            "fields": [
+                {
+                    "id": "shopbycategory",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "ShopByCategory",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "shopbycategory.ShopByCategory.Title",
+                            "type": "string",
+                            "format": "text",
+                            "label": "وصف الصوره",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "shopbycategory.ShopByCategory.image",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image",
+                            "description": "image size is between 600*700px",
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": true
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         },
         {
             "key": "b94c4348-d712-4a60-b10c-659f0517f7d4",
