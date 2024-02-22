@@ -881,13 +881,6 @@
             ]
         },
         {
-            "key": "13a244ee-6e06-4abb-aec8-a901decaa498",
-            "title": "test-compo",
-            "icon": "sicon-store",
-            "path": "home.test-compo",
-            "fields": []
-        },
-        {
             "key": "3136f882-d06f-43ff-95f3-fa8277c4d82a",
             "title": "marwa-test",
             "icon": "sicon-store",
