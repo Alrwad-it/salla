@@ -973,6 +973,13 @@
             "icon": "sicon-store",
             "path": "home.ShopByCategory",
             "fields": []
+        },
+        {
+            "key": "b94c4348-d712-4a60-b10c-659f0517f7d4",
+            "title": "all-caegories",
+            "icon": "sicon-store",
+            "path": "home.all-caegories",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
