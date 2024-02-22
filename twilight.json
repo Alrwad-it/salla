@@ -895,13 +895,6 @@
             "fields": []
         },
         {
-            "key": "bbb4f14a-2e3a-41c9-ad77-0bfcb8168b19",
-            "title": "fatma-test",
-            "icon": "sicon-store",
-            "path": "home.fatma-test",
-            "fields": []
-        },
-        {
             "key": "19f7983c-3063-4d0e-9bd7-9c8bf9a7bfa4",
             "title": "ShopByCategory",
             "icon": "sicon-store",
