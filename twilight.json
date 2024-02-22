@@ -971,6 +971,13 @@
             "icon": "sicon-store",
             "path": "home.all-caegories",
             "fields": []
+        },
+        {
+            "key": "b79b6ad9-262d-4cf4-aef7-121d560b93fd",
+            "title": "recently-products",
+            "icon": "sicon-store",
+            "path": "home.recently-products",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
