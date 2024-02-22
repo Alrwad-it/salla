@@ -939,9 +939,9 @@
         },
         {
             "key": "b79b6ad9-262d-4cf4-aef7-121d560b93fd",
-            "title": "recently-products",
+            "title": "latest-products",
             "icon": "sicon-store",
-            "path": "home.recently-products",
+            "path": "home.latest-products",
             "fields": [
                 {
                     "id": "categories_title",
