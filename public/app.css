@@ -6736,3 +6736,19 @@ button.swiper-pagination-bullet {
 .rtl\:lg\:pr-20:where([dir="rtl"], [dir="rtl"] *){padding-right:5rem}}
 @media (min-width: 480px){
 .rtl\:xs\:left-5:where([dir="rtl"], [dir="rtl"] *){left:1.25rem}}
+
+
+.s-block--custom-width-home-slider {
+  max-width: 800px; /* Adjust the width as per your requirement */
+  margin: 0 auto;
+  border: 2px solid #ccc; /* Add your desired border properties */
+}
+
+.custom-slider {
+  width: 100%; /* Ensure the slider fills its container */
+}
+
+.custom-slide {
+  border-right: 2px solid #ccc; /* Add your desired border properties */
+  border-left: 2px solid #ccc; /* Add your desired border properties */
+}
