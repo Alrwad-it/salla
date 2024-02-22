@@ -921,6 +921,13 @@
             "icon": "sicon-store",
             "path": "ome.recently-products",
             "fields": []
+        },
+        {
+            "key": "19f7983c-3063-4d0e-9bd7-9c8bf9a7bfa4",
+            "title": "ShopByCategory",
+            "icon": "sicon-store",
+            "path": "home.ShopByCategory",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
