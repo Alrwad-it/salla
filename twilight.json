@@ -943,7 +943,53 @@
             "title": "categories-buttons",
             "icon": "sicon-store",
             "path": "home.categories-buttons",
-            "fields": []
+            "fields": [
+                {
+                    "id": "categories_buttons",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "categories_buttons",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "categories_buttons.title",
+                            "type": "string",
+                            "format": "text",
+                            "label": "title",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "categories_buttons.link",
+                            "type": "string",
+                            "format": "url",
+                            "inputType": "url",
+                            "label": "link",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://salla.sa",
+                            "icon": "sicon-link",
+                            "value": null,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://salla.com/",
