@@ -904,7 +904,7 @@
                     "icon": "sicon-list-add",
                     "fields": [
                         {
-                            "id": "shopbycategory.ShopByCategory.Title",
+                                "id": "shopbycategory.ShopByCategory.Title",
                             "type": "string",
                             "format": "text",
                             "label": "وصف الصوره",
