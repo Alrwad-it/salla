@@ -894,20 +894,20 @@
             "path": "home.ShopByCategory",
             "fields": [
                 {
-                    "id": "shopbycategory",
+                    "id": "shopbycategoryban",
                     "type": "collection",
                     "format": "collection",
-                    "label": "ShopByCategory",
+                    "label": "ShopByCategoryBanner",
                     "description": null,
                     "labelHTML": null,
                     "item_label": null,
                     "icon": "sicon-list-add",
                     "fields": [
                         {
-                            "id": "shopbycategory.ShopByCategory.Title",
+                            "id": "shopbycategoryban.imagetitle",
                             "type": "string",
                             "format": "text",
-                            "label": "وصف الصوره",
+                            "label": "ImageTitle",
                             "description": null,
                             "labelHTML": null,
                             "placeholder": "Placeholder text ..",
@@ -915,20 +915,20 @@
                             "value": null,
                             "multilanguage": false,
                             "required": false,
-                            "minLength": 6,
+                            "minLength": "3",
                             "maxLength": 30
                         },
                         {
-                            "id": "shopbycategory.ShopByCategory.image",
+                            "id": "shopbycategoryban.image",
                             "type": "string",
                             "format": "image",
                             "label": "Image",
-                            "description": "image size is between 600*700px",
+                            "description": null,
                             "labelHTML": null,
                             "placeholder": "e.g. https://hostname.com/image.png",
                             "icon": "sicon-image",
                             "value": null,
-                            "required": true
+                            "required": false
                         }
                     ],
                     "value": [],
