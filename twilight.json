@@ -988,13 +988,6 @@
                     "maxLength": 5
                 }
             ]
-        },
-        {
-            "key": "8b527861-77a8-46e5-906a-ee7a6a9808bd",
-            "title": "lastTest",
-            "icon": "sicon-store",
-            "path": "home.lastTest",
-            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
