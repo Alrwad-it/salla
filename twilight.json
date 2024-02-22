@@ -920,7 +920,52 @@
             "title": "recently-products",
             "icon": "sicon-store",
             "path": "ome.recently-products",
-            "fields": []
+            "fields": [
+                {
+                    "id": "component-title",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "recentlyProducts_title",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "component-title.recentlyProducts_title.title",
+                            "type": "string",
+                            "format": "text",
+                            "label": "title",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                },
+                {
+                    "id": "categories_buttons",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "categories_buttons",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         },
         {
             "key": "19f7983c-3063-4d0e-9bd7-9c8bf9a7bfa4",
