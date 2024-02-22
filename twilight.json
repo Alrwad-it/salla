@@ -907,6 +907,13 @@
             "icon": "sicon-store",
             "path": "home.fatma-test",
             "fields": []
+        },
+        {
+            "key": "617c137f-940b-4055-a085-3433c4c0e721",
+            "title": "last-test",
+            "icon": "sicon-store",
+            "path": "home.last-test",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
