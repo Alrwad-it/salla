@@ -994,8 +994,13 @@
                     "options": [
                         {
                             "label": "label1",
-                            "value": "www.google.com",
+                            "value": "value1",
                             "key": "499b3dc0-540f-4a1f-a2b8-ce5a1a64ca15"
+                        },
+                        {
+                            "label": null,
+                            "value": "Value 2",
+                            "key": "ba74a90b-ca18-4e6d-b887-a4b75cb7ba62"
                         }
                     ],
                     "source": "Manual",
