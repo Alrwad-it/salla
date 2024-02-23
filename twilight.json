@@ -981,7 +981,29 @@
             "title": "headerTopList",
             "icon": "sicon-store",
             "path": "home.headerTopList",
-            "fields": []
+            "fields": [
+                {
+                    "id": "dropdown_list",
+                    "type": "items",
+                    "format": "dropdown-list",
+                    "label": "Dropdown List",
+                    "description": "menu items",
+                    "labelHTML": null,
+                    "icon": "sicon-keyboard_arrow_down",
+                    "selected": [],
+                    "options": [
+                        {
+                            "label": "label1",
+                            "value": "www.google.com",
+                            "key": "499b3dc0-540f-4a1f-a2b8-ce5a1a64ca15"
+                        }
+                    ],
+                    "source": "Manual",
+                    "multichoice": true,
+                    "searchable": true,
+                    "required": false
+                }
+            ]
         }
     ],
     "support_url": "https://salla.com/",
