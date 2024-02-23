@@ -1,16 +1,16 @@
-<section class="s-block s-block--default-home-slider s-block--full-bg">
-    <salla-slider auto-play pagination type="fullwidth">
+<section class="s-block s-block--default-home-slider s-block--custom-width-home-slider">
+    <salla-slider show-controls='false' auto-play pagination type="fullwidth" class="custom-slider">
         <div slot="items">
             {% for banner in component.shopbycategoryban %}
-            <div class="bg-no-repeat bg-cover swiper-lazy-wrap" style="background-color:black; background-image:url('{{banner.image}}')">
-                <div class="container flex text-center items-center justify-conter sm:justify-start ltr:sm:justify-end px-8 py-16 lg:px-12 lg:py-20 home-slider__content relative h-full">
-                    <div class="text-white w-full">
-                        <h3 class='' data-swiper-parallax="-500">
-                            {{banner.Title}}
-                        </h3>
+                <div class="bg-no-repeat bg-cover swiper-lazy-wrap custom-slide" style="background-color:black; background-image:url('{{banner.image}}'); height: 500px; ">
+                    <div class="container flex text-center items-center justify-conter sm:justify-start ltr:sm:justify-end px-8 py-16 lg:px-12 lg:py-20 home-slider__content relative h-full">
+                        <div class="text-white w-full">
+                            <h3 class='' data-swiper-parallax="-500">
+                                {{banner.imagetitle}}
+                            </h3>
+                        </div>
                     </div>
                 </div>
-            </div>
             {% endfor %}
         </div>
     </salla-slider>

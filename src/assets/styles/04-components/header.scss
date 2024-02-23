@@ -20,7 +20,7 @@
   }
 
   .s-search-input{
-    @apply bg-gray-200/50 hover:bg-gray-200/70 border-none;
+    @apply bg-gray-200/50 hover:bg-gray-200/70 border border-red-500;
   }
 
   @media (max-width: 640px) {
@@ -157,7 +157,7 @@
   &__icon{
     @apply text-xl w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-violet-700;
     &.icon{
-      @apply mr-[9px] rtl:ml-[9px] rtl:mr-[unset] text-violet-500;
+      @apply mr-[9px] rtl:ml-[9px] rtl:mr-[unset] text-violet-500 text-3xl;
     }
   }
 }
@@ -168,11 +168,14 @@ salla-user-menu{
 
 // cart summary
 .s-cart-summary-total{
-  @apply text-black font-[600];
+  //here is the ريال سعودي word styles
+  // @apply text-black font-[600]; default values
+  @apply  font-[600] text-pink-500;
 }
 
 .s-cart-summary-count{
-  @apply -top-0.5 ltr:-left-1.5 rtl:-right-1.5;
+  //here is the cart badge and the cart badge text
+  @apply -top-0.5 ltr:-left-1.5 rtl:-right-1.5 w-[0.9rem] h-[0.9rem] rounded-full bg-[#123abc] text-amber-500 text-lg;
 }
 
 #nav-cart{
