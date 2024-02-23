@@ -393,7 +393,7 @@
                         {
                             "type": "string",
                             "icon": "sicon-format-text-alt",
-                            "label": "عنوان الرابطيسيس",
+                            "label": "عنوان الرابط",
                             "id": "links.icon",
                             "value": "sicon-store2",
                             "required": false,
@@ -417,7 +417,7 @@
                         {
                             "type": "items",
                             "icon": "sicon-link",
-                            "label": "الرابطصصصص",
+                            "label": "الرابط",
                             "id": "links.url",
                             "value": [],
                             "description": null,
