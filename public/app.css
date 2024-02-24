@@ -1986,9 +1986,9 @@ input[type=radio].sr-only:checked ~ div.s-offer-bank-payment-discount-percent {
 .s-offer-.s-slider-block__title::before{position:absolute;top:1rem;font-size:3rem;font-weight:400;line-height:1;--tw-text-opacity:1;color:rgba(254, 242, 242, 1);color:rgba(254, 242, 242, var(--tw-text-opacity));--tw-content:'ee30';content:'ee30';content:var(--tw-content)}
 .s-offer-.s-slider-block__title:where([dir="ltr"], [dir="ltr"] *)::before{content:var(--tw-content);left:0px}
 .s-offer-.s-slider-block__title:where([dir="rtl"], [dir="rtl"] *)::before{content:var(--tw-content);right:0px}
-.s-offer-.s-offer-wrapper .s-slider-block__title h2{font-size:1.125rem;line-height:1.75rem;--tw-text-opacity:1;color:rgba(239, 68, 68, 1);color:rgba(239, 68, 68, var(--tw-text-opacity))}
+.s-offer-.s-offer-wrapper .s-slider-block__title h2{z-index:0;font-size:1.125rem;line-height:1.75rem;--tw-text-opacity:1;color:rgba(239, 68, 68, 1);color:rgba(239, 68, 68, var(--tw-text-opacity))}
 .s-offer-.s-offer-wrapper .s-slider-block__title p{margin-top:0.25rem;overflow:visible;display:block;-webkit-box-orient:horizontal;-webkit-line-clamp:none;line-height:1.5rem}
-.s-offer-wrapper .s-slider-block__title::before{content:\ee30;font-family:sallaicons;position:absolute;top:1rem;font-size:3rem;font-weight:400;line-height:1;color:rgba(254, 242, 242, 1)}
+.s-offer-wrapper .s-slider-block__title::before{content:\ee30;font-family:sallaicons;position:absolute;top:1rem;font-size:3rem;font-weight:400;line-height:1;z-index:-1;color:rgba(254, 242, 242, 1)}
 .s-offer-modal-body{display:flex;overflow-x:auto;margin-left:-32px;margin-right:-32px;padding-left:32px;padding-right:32px;gap:24px;padding-bottom:32px;-webkit-overflow-scrolling:touch;}
 .s-offer-modal-body::-webkit-scrollbar{display:none}
 .s-offer-modal-badge{margin-bottom:0.625rem;display:inline-flex;align-items:center;justify-content:center;border-radius:1.5rem;--tw-bg-opacity:1;background-color:rgba(243, 244, 246, 1);background-color:rgba(243, 244, 246, var(--tw-bg-opacity));padding-top:0.625rem;padding-bottom:0.625rem;padding-left:1rem;padding-right:1rem;font-size:0.875rem;line-height:1.25rem;--tw-text-opacity:1;color:rgba(107, 114, 128, 1);color:rgba(107, 114, 128, var(--tw-text-opacity))}
@@ -6736,19 +6736,3 @@ button.swiper-pagination-bullet {
 .rtl\:lg\:pr-20:where([dir="rtl"], [dir="rtl"] *){padding-right:5rem}}
 @media (min-width: 480px){
 .rtl\:xs\:left-5:where([dir="rtl"], [dir="rtl"] *){left:1.25rem}}
-
-
-.s-block--custom-width-home-slider {
-  max-width: 800px; /* Adjust the width as per your requirement */
-  margin: 0 auto;
-  border: 2px solid #ccc; /* Add your desired border properties */
-}
-
-.custom-slider {
-  width: 100%; /* Ensure the slider fills its container */
-}
-
-.custom-slide {
-  border-right: 2px solid #ccc; /* Add your desired border properties */
-  border-left: 2px solid #ccc; /* Add your desired border properties */
-}
