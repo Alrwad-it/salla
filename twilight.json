@@ -1061,7 +1061,155 @@
             "title": "categories",
             "icon": "sicon-store",
             "path": "home.categories",
-            "fields": []
+            "fields": [
+                {
+                    "id": "with-BG",
+                    "type": "static",
+                    "format": "description",
+                    "label": null,
+                    "value": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/main-links-with-bg.jpg?v=1.1'></div>",
+                    "variant": "h1",
+                    "icon": "sicon-format-size"
+                },
+                {
+                    "id": "without-BG",
+                    "type": "static",
+                    "format": "description",
+                    "label": null,
+                    "value": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/main-links.png?v=1.1'></div>",
+                    "variant": "h1",
+                    "icon": "sicon-format-size"
+                },
+                {
+                    "id": "title",
+                    "type": "string",
+                    "format": "text",
+                    "label": "العنوان",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": "0",
+                    "maxLength": 30
+                },
+                {
+                    "id": "merge_with_top_component",
+                    "type": "boolean",
+                    "format": "switch",
+                    "label": "دمج مع العنصر السابق",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-toggle-off",
+                    "value": true,
+                    "selected": false,
+                    "required": false
+                },
+                {
+                    "id": "static_desc",
+                    "type": "static",
+                    "format": "description",
+                    "label": null,
+                    "value": "<small >* إزاحة كامل العنصر ومحتوياته مع العنصر السابق، وجعلهما يظهران كعنصر واحد متناسق، يكون ذا فائدة في حالة كان العنصر السابق هو (صور متحركة محسنة). </small>",
+                    "variant": "h1",
+                    "icon": "sicon-format-size"
+                },
+                {
+                    "id": "show_controls",
+                    "type": "boolean",
+                    "format": "switch",
+                    "label": "عرض أسهم التحرك",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-toggle-off",
+                    "value": true,
+                    "selected": true,
+                    "required": false
+                },
+                {
+                    "id": "chow_cats",
+                    "type": "boolean",
+                    "format": "switch",
+                    "label": "عرض روابط التصنيفات",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-toggle-off",
+                    "value": true,
+                    "selected": false,
+                    "required": false
+                },
+                {
+                    "id": "categories",
+                    "type": "items",
+                    "format": "dropdown-list",
+                    "label": "حدد التصنيفات",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-keyboard_arrow_down",
+                    "selected": [],
+                    "options": [],
+                    "source": "Manual",
+                    "multichoice": true,
+                    "searchable": true,
+                    "required": false
+                },
+                {
+                    "id": "links",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": null,
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": "رابط",
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "links.icon",
+                            "type": "string",
+                            "format": "icon",
+                            "label": "عنوان الرابط",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-user-circle",
+                            "value": "sicon-store",
+                            "required": false
+                        },
+                        {
+                            "id": "links.title",
+                            "type": "string",
+                            "format": "text",
+                            "label": null,
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "أدخل عنوان للرابط هنا...",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": "2",
+                            "maxLength": "80"
+                        },
+                        {
+                            "id": "links.url",
+                            "type": "items",
+                            "format": "radio-list",
+                            "label": "الرابط",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-list",
+                            "selected": [],
+                            "options": [],
+                            "source": "Manual",
+                            "required": false
+                        }
+                    ],
+                    "value": [],
+                    "minLength": "3",
+                    "maxLength": "100"
+                }
+            ]
         }
     ],
     "support_url": "https://salla.com/",
