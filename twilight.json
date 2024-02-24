@@ -975,6 +975,13 @@
                     "maxLength": "100"
                 }
             ]
+        },
+        {
+            "key": "6f34d267-6f75-4033-9047-2a2cbaf4f993",
+            "title": "storeCategories",
+            "icon": "sicon-store",
+            "path": "home.store_categories",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
