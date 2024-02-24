@@ -23,23 +23,18 @@
       <salla-search inline="true" height="50" class="rounded-xl"></salla-search>
     </div>
     <div class="col-span-3 flex justify-center items-center text-center">
-      <div class="flex justify-evenly mx-2">
-        <button class="text-black dark:text-white px-2 py-1" onclick="salla.event.emit(`localization::open`)">
-          languages
-        </salla-button>
-        <salla-localization-modal language="ar" >
-          <!-- you can customize the language dom item -->
-          <div slot="language">name</div>
-        </salla-localization-modal>
-      </div>
+      <salla-localization-modal language="ar" >
+        <!-- you can customize the language dom item -->
+        <div slot="language" class="cursor-pointer text-lg font-[600]" onclick="salla.event.emit(`localization::open`)">العملة</div>
+      </salla-localization-modal>
       {% if user.type == "user" %}
       <salla-user-menu></salla-user-menu>
       {% else %}
-      <a class="text-lg" style="cursor: pointer !important;" onclick="salla.event.dispatch('login::open')">
+      <a class="text-lg mx-3" style="cursor: pointer !important;" onclick="salla.event.dispatch('login::open')">
         <i class="icon sicon-user"></i>
       </a>
       {% endif %}
-      <salla-cart-summary class="mr-5 text-lg text-violet-500">
+      <salla-cart-summary class="mr-2 text-lg text-violet-500">
         <i slot="icon" class="icon sicon-cart text-xl leading-none"></i>
       </salla-cart-sumary>
     </div>
