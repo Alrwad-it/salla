@@ -1200,8 +1200,25 @@
                             "description": null,
                             "labelHTML": null,
                             "icon": "sicon-list",
-                            "selected": [],
-                            "options": [],
+                            "selected": [
+                                {
+                                    "label": "test",
+                                    "value": "value 1",
+                                    "key": "593ce441-c5ae-4377-960a-663185bcc21f"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "label": "test",
+                                    "value": "value 1",
+                                    "key": "593ce441-c5ae-4377-960a-663185bcc21f"
+                                },
+                                {
+                                    "label": "test2",
+                                    "value": "Value 2",
+                                    "key": "2d7bc979-3b89-4209-8ceb-6fe9152e16c0"
+                                }
+                            ],
                             "source": "Manual",
                             "required": false
                         }
