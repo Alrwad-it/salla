@@ -1048,6 +1048,22 @@
                             "required": false,
                             "minLength": 6,
                             "maxLength": 30
+                        },
+                        {
+                            "id": "category_item.dropdownList",
+                            "type": "items",
+                            "format": "dropdown-list",
+                            "label": "dropdownList",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-keyboard_arrow_down",
+                            "selected": [],
+                            "options": [],
+                            "source": "Categories",
+                            "multichoice": true,
+                            "searchable": true,
+                            "required": false,
+                            "value": []
                         }
                     ],
                     "value": [],
